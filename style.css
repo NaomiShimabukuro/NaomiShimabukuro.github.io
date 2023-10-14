@@ -188,7 +188,8 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul{
 }
 
 .center {
-    display: block;
+    display: flex;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 80px;

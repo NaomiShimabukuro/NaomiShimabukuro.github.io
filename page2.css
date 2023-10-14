@@ -86,16 +86,16 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul{
 .button {
     padding: 10px 20px;
     display: inline-block;
-    border: 1px solid #000;
+    border: 1px solid #fff;
     border-radius: 4px;
-    background-color: #e8a83b;
+    background-color: #ed9121;
     font-size: 0.8rem;
     text-decoration: none;
     color: #000;
     margin-top:10px;
 }
 .button:hover {
-    background-color:  #ed9121;
+    background-color:  #fff;
     color: #000;
 }
 
