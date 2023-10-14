@@ -1,0 +1,96 @@
+/* page 3 */
+*,*:before,*:after {
+    box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    
+}
+
+.page3 {
+    
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: stretch;
+}
+
+.page3-left, page3-right{
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+/* left side */
+.page3-left{
+    background-color: #fff;
+}
+.llamacode-logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+        margin-bottom: 80px;
+        width: 50% ;
+        padding: 20px;  
+    
+}
+
+
+/* right side */
+.page3-right {
+    background-color: #e8a83b;
+    padding: 200px ; 
+}
+.content {
+    padding: 20px;
+    font-size: 25px;
+}
+.emphasis-3 {
+    font-weight: bold;
+}
+.us {
+    padding-left: 20px;
+}
+
+/* button */
+.button {
+    padding: 10px 20px;
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    background-color: #ed9121;
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: #000;
+    margin-top:10px;
+}
+.button:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+/* Media Query for Responsiveness */
+
+@media (max-width: 768px) {
+    .page3 {
+        flex-direction: column; 
+    }
+    .page3-left, page3-right {
+        flex: 1;
+
+    }
+}

@@ -1,0 +1,115 @@
+
+*,*:before,*:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ol, ul{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+/* page 2 */
+.container-page2 {
+    
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+.page2 {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* left side */
+.page2-left {
+    background-color: #e8a83b;
+    height: 100%;
+    width: 50%;
+}
+.emphasis-3 {
+    color: #ba1e60;
+}
+.about-me {
+    padding: 80px 0px 50px 80px;
+}
+
+.description {
+    padding: 0px 80px 50px 80px;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.icon {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: 100px;
+    height: auto;
+    display: flex;
+}
+.icon2 {
+    justify-content: center;
+    width: 30px;
+    height: auto;
+    display: flex;
+
+}
+.placeholder {
+    display: flex;
+    width: 50px;
+
+}
+
+/* right side */
+.page2-right {
+    background-color: #fff; 
+    height: 100%;
+    width: 50%;
+}
+
+
+.naomi-pic{
+    width: 80%;
+    height: fit-content;
+    margin: 10px;
+
+}
+
+/* button */
+.button {
+    padding: 10px 20px;
+    display: inline-block;
+    border: 1px solid #000;
+    border-radius: 4px;
+    background-color: #e8a83b;
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: #000;
+    margin-top:10px;
+}
+.button:hover {
+    background-color:  #ed9121;
+    color: #000;
+}
+
+
+
+/* Media Query for Responsiveness */
+
+@media (max-width: 768px) {
+    .container-page2 {
+        flex-direction: column; 
+        flex: 1;
+    }
+    .page2 {
+        flex: 1;
+
+    }
+}
