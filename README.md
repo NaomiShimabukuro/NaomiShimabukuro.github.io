@@ -22,7 +22,7 @@ I used responsible design principles using 3 sizes of screen width
 - [ ] Uses semantic HTML.
       
 ### Bonus (optional)
-I used fix nav bar, hamburger menu, hoover buttons 
+I used fix nav bar, hoover over nav bar descriptions,  hamburger menu, hoover buttons, make an hr dotted line when the screen size is reduced, linked logo photos to the main page.
 - [ ] Different styles for active, hover and focus states.
 - [ ] Include JavaScript to add some dynamic elements to your site. (Extratricky!)
       
