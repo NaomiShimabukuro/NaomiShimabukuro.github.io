@@ -54,6 +54,10 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul{
 }
 .emphasis-3 {
     font-weight: bold;
+    color: #ba1e60;
+}
+.emphasis-4  {
+  font-weight: bold
 }
 .us {
     padding-left: 20px;
@@ -76,7 +80,9 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul{
     color: #000;
 }
 
-
+.contact-us-button {
+    padding-left: 20px;
+}
 
 
 
@@ -85,12 +91,53 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul{
 
 /* Media Query for Responsiveness */
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     .page3 {
         flex-direction: column; 
     }
     .page3-left, page3-right {
         flex: 1;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .page3-right {
+        padding: 100px 50px 50px 50px ;
+    }
+    .llamacode-logo {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+        padding: 0px;
+    }
+}
+
+/* Mobile Screen */
+@media screen and (max-width: 390px) {
+    .page3 {
+     font-size: 18px;
+    }
+    .page3-left {
+        display: flex;
+        padding: 50px 5 px;
+
+    }
+    .page3-right {
+        padding: 0px;
+        margin-top: 80px;
+    }
+    .llamacode-logo {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+        padding: 0px;
+    }
+    .content {
+        font-size: 20px;
+    }
+    .contact-us-button {
+        margin-bottom: 50px;
 
     }
 }
